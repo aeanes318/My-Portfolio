@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Martian+Mono&family=Nerko+One&family=Roboto+Condensed:wght@300&family=Rubik+80s+Fade&family=Titillium+Web&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "josefin sans", sans-serif;
+  background-color: black;
+}
+
+#header {
+  width: 40%;
+}
+
+#logo {
+  width: 25%;
+  padding: 0px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+li {
+  display: inline;
+  align-content: space-evenly;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  left: 30%;
+
+  top: 20%;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  position: relative;
+  bottom: 30px;
+  align-content: space-between;
+}
+
+a:hover {
+  color: darkred;
+  cursor: pointer;
+}
+
+img {
+  position: relative;
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+h1 {
+  width: 60%;
+  color: white;
+  font-size: 45px;
+  align-content: center;
+  position: relative;
+  left: 30%;
+  bottom: 100px;
+}
+
+span {
+  color: darkred;
+}
+
+h2 {
+  color: darkred;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  display: inline;
+  width: 20%;
+  padding-left: 3%;
+  padding-right: 10%;
+  cursor: pointer;
+  border-left: 1px solid white;
+  margin-right: 30px;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+p {
+  width: auto;
+  color: white;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+#my-work {
+  margin-top: 60px;
+}
+
+.apps {
+  height: 148px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  position: relative;
+  left: 20%;
+  top: 30px;
+  
+}
+
+.container {
+  margin-top: 45px;
+}
+
+#contact-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#self-photo {
+  position: relative;
+  left: 40px;
+  top: 60px;
+}
